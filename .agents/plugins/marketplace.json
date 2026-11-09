@@ -1,0 +1,28 @@
+{
+  "name": "partme-ai-dreamina-novel",
+  "interface": {
+    "displayName": "Dreamina Novel"
+  },
+  "plugins": [
+    {
+      "name": "dreamina-novel",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/full-aigc-plugins/dreamina-novel-plugin.git",
+        "ref": "v0.1.0-dev.20261109.1"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Creativity",
+      "version": "0.1.0-dev.20261109.1",
+      "description": "即梦短剧创作：承接故事与本地素材，完成剧本、角色场景、分镜、批量生成与成片交付。",
+      "interface": {
+        "displayName": "Dreamina Novel",
+        "shortDescription": "短剧剧本、资产、分镜与成片"
+      },
+      "displayName": "Dreamina Novel"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+name: ci
+on:
+  push:
+    branches: [main, 'feature/**', 'test/**']
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  distribution:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: '3.12'
+      - run: python -m unittest discover -s tests -q
+      - run: python scripts/verify_vendored_skills.py

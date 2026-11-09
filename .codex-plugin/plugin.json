@@ -1,0 +1,41 @@
+{
+  "name": "dreamina-novel",
+  "version": "0.1.0-dev.20261109.1+codex.20261109",
+  "description": "即梦短剧创作：承接故事与本地素材，完成剧本、角色场景、分镜、批量生成与成片交付。",
+  "author": {
+    "name": "Full AIGC Skills / PartMe.AI",
+    "url": "https://github.com/partme-ai"
+  },
+  "homepage": "https://github.com/full-aigc-plugins/dreamina-novel-plugin",
+  "repository": "https://github.com/full-aigc-plugins/dreamina-novel-plugin",
+  "license": "Apache-2.0",
+  "keywords": [
+    "dreamina",
+    "novel",
+    "drama",
+    "storyboard"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Dreamina Novel",
+    "shortDescription": "即梦短剧从剧本到成片",
+    "longDescription": "使用 jimeng-novel CLI 编排多集短剧创作；复用已有剧本与素材，按集生成和返修。",
+    "developerName": "Full AIGC Skills / PartMe.AI",
+    "category": "Creativity",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/full-aigc-plugins/dreamina-novel-plugin",
+    "defaultPrompt": [
+      "根据已有剧本整理第一集分镜",
+      "为这批镜头报价并等待我确认",
+      "检查第一集片段并合成成片"
+    ],
+    "brandColor": "#25E1FB",
+    "composerIcon": "./assets/composer-icon.png",
+    "logo": "./assets/official-logo.png",
+    "logoDark": "./assets/official-logo.png"
+  }
+}
