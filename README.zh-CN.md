@@ -19,4 +19,4 @@ python3 -m unittest discover -s tests -q
 python3 scripts/verify_vendored_skills.py
 ```
 
-技能锁定到 `dreamina-skills` 的提交 `bbd13f8ba5ae6c85133d72ca07330e8496c3cfaa`。CLI 命令以已安装版本的 `--help` 和 `schema get` 为准；本地测试不等于付费生成、真实宿主或成片质量验收。
+技能锁定到 `dreamina-skills` 的提交 `16bd2e843bedab47e2821f95c46bd7ceab4207f9`。CLI 命令以已安装版本的 `--help` 和 `schema get` 为准；本地测试不等于付费生成、真实宿主或成片质量验收。

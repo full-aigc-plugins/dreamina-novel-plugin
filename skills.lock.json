@@ -2,7 +2,7 @@
   "version": 1,
   "sourcePackage": "dreamina-skills",
   "sourceRepository": "https://github.com/full-aigc-skills/dreamina-skills.git",
-  "sourceCommit": "bbd13f8ba5ae6c85133d72ca07330e8496c3cfaa",
+  "sourceCommit": "16bd2e843bedab47e2821f95c46bd7ceab4207f9",
   "sourceVersion": "1.8.0",
   "releaseStatus": "unpublished-local-snapshot",
   "skills": {

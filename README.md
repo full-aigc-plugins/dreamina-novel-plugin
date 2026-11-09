@@ -19,4 +19,4 @@ python3 -m unittest discover -s tests -q
 python3 scripts/verify_vendored_skills.py
 ```
 
-The skills are pinned to dreamina-skills commit `bbd13f8ba5ae6c85133d72ca07330e8496c3cfaa`. Command and model availability must be checked against the installed CLI. Local tests do not establish paid generation, host installation, or final film quality.
+The skills are pinned to dreamina-skills commit `16bd2e843bedab47e2821f95c46bd7ceab4207f9`. Command and model availability must be checked against the installed CLI. Local tests do not establish paid generation, host installation, or final film quality.
