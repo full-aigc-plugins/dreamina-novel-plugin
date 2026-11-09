@@ -23,11 +23,14 @@ def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument('--source', type=Path, required=True)
     parser.add_argument('--expected-commit', required=True)
+    parser.add_argument('--release-ref')
     args = parser.parse_args()
     source = args.source.resolve()
     commit = git(source, 'rev-parse', 'HEAD')
     if commit != args.expected_commit:
         raise SystemExit(f'expected {args.expected_commit}, source is {commit}')
+    if args.release_ref and git(source, 'rev-list', '-n', '1', args.release_ref) != commit:
+        raise SystemExit(f'{args.release_ref} does not resolve to {commit}')
     if git(source, 'status', '--porcelain'):
         raise SystemExit('source checkout has uncommitted changes')
     version = json.loads((source / '.claude-plugin/plugin.json').read_text())['version']
@@ -52,7 +55,8 @@ def main() -> None:
         'sourceRepository': 'https://github.com/full-aigc-skills/dreamina-skills.git',
         'sourceCommit': commit,
         'sourceVersion': version,
-        'releaseStatus': 'unpublished-local-snapshot',
+        'releaseStatus': 'published-release' if args.release_ref else 'unpublished-local-snapshot',
+        'sourceRef': args.release_ref or commit,
         'skills': {name: tree_digest(ROOT / 'skills' / name) for name in SKILLS},
     }
     lock_path.write_text(json.dumps(lock, ensure_ascii=False, indent=2) + '\n')

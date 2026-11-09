@@ -1,6 +1,6 @@
 # 即梦短剧创作插件（Dreamina Novel Plugin）
 
-本插件将 `dreamina-skills` 中的 8 个短剧技能打包给 Codex、ZCode 与 Kimi，通过本机 `jimeng-novel` CLI 执行，不携带账户凭据。当前为本地开发候选版，尚未发布 GitHub 仓库、tag 或市场清单。
+本插件将 `dreamina-skills` 中的 8 个短剧技能打包给 Codex、ZCode 与 Kimi，通过本机 `jimeng-novel` CLI 执行，不携带账户凭据。当前为发布候选版；GitHub 仓库已创建，插件 Release 和市场清单将分别发布。
 
 ## 能力
 
@@ -19,4 +19,4 @@ python3 -m unittest discover -s tests -q
 python3 scripts/verify_vendored_skills.py
 ```
 
-技能锁定到 `dreamina-skills` 的提交 `16bd2e843bedab47e2821f95c46bd7ceab4207f9`。CLI 命令以已安装版本的 `--help` 和 `schema get` 为准；本地测试不等于付费生成、真实宿主或成片质量验收。
+技能锁定到 `dreamina-skills` 的提交 `87c7f92d38fab1e937ae1c1231a229f7237b1ec0`。CLI 命令以已安装版本的 `--help` 和 `schema get` 为准；本地测试不等于付费生成、真实宿主或成片质量验收。

@@ -2,9 +2,10 @@
   "version": 1,
   "sourcePackage": "dreamina-skills",
   "sourceRepository": "https://github.com/full-aigc-skills/dreamina-skills.git",
-  "sourceCommit": "16bd2e843bedab47e2821f95c46bd7ceab4207f9",
+  "sourceCommit": "87c7f92d38fab1e937ae1c1231a229f7237b1ec0",
   "sourceVersion": "1.8.0",
-  "releaseStatus": "unpublished-local-snapshot",
+  "releaseStatus": "published-release",
+  "sourceRef": "v1.8.0",
   "skills": {
     "dreamina-novel-cli": "560e63ae9866429a7059f50c475b2ba8b802c25341c962a9d6bdb6186b685981",
     "dreamina-novel-cli-setup": "60845f9ee5f507c37690781f6ed7509ea3ab9c712421a7404882badfe17c0bcb",
