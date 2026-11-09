@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "targetVersion": "0.1.0",
+  "currentVersion": "0.1.0-dev.20261109.1",
+  "releaseStatus": "BLOCKED",
+  "releaseTag": "v0.1.0-dev.20261109.1",
+  "releaseCommit": "a5a173bf8b3a67cf525e34ab876849b8c7fb2915",
+  "manifestSourceCommit": "a5a173bf8b3a67cf525e34ab876849b8c7fb2915",
+  "requiredTaskEvidence": [],
+  "blockers": [
+    "paid-generation-end-to-end-not-verified",
+    "real-codex-zcode-kimi-host-install-not-verified",
+    "final-video-quality-not-reviewed"
+  ]
+}

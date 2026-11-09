@@ -1,6 +1,6 @@
 # Dreamina Novel Plugin
 
-This community plugin packages eight short-drama skills from `dreamina-skills` for Codex, ZCode, and Kimi. The installed `jimeng-novel` CLI performs the work; the plugin contains no account credentials. This is a release candidate. The GitHub repository exists; the plugin release and marketplace listing are published separately.
+This community plugin packages eight short-drama skills from `dreamina-skills` for Codex, ZCode, and Kimi. The installed `jimeng-novel` CLI performs the work; the plugin contains no account credentials. This is an immutable prerelease candidate; production promotion remains blocked by paid generation and host acceptance.
 
 ## Capabilities
 
