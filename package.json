@@ -1,0 +1,14 @@
+{
+  "name": "dreamina-novel",
+  "description": "承接创意、剧本和本地素材，按集完成角色场景、分镜、批量生成与成片交付。",
+  "version": "0.1.0-dev.20261111.1",
+  "private": true,
+  "type": "module",
+  "main": "./dsh/lib/index.js",
+  "dsh": {
+    "bundle": {
+      "patch": "./dsh/cordis.patch.yml"
+    }
+  },
+  "icon": "./dsh/icon.png"
+}
