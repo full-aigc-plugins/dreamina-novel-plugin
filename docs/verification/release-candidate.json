@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "targetVersion": "0.1.0",
-  "currentVersion": "0.1.0-dev.20261109.2",
+  "currentVersion": "0.1.0-dev.20261111.1",
   "releaseStatus": "BLOCKED",
-  "releaseTag": "v0.1.0-dev.20261109.2",
+  "releaseTag": "v0.1.0-dev.20261111.1",
   "releaseCommit": "7e624f3633dc23e0466af059c38633a6b435eadc",
   "manifestSourceCommit": "7e624f3633dc23e0466af059c38633a6b435eadc",
   "requiredTaskEvidence": [],

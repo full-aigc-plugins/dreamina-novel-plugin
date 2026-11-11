@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "dreamina-novel",
-  "version": "0.1.0-dev.20261109.2",
+  "version": "0.1.0-dev.20261111.1",
   "description": "承接创意、剧本和本地素材，按集完成角色场景、分镜、批量生成与成片交付。",
   "author": {
     "name": "Full AIGC Skills / PartMe.AI",
